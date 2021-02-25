@@ -1,3 +1,41 @@
-p{
-    color: brown;
+.photo{
+    text-align: center;
 }
+
+h1{
+    color:rgb(70, 66, 66);
+}
+.navbar{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.nav-link{
+    color:rgb(207, 199, 199);
+    margin-left: 0.5em;
+}
+
+
+.nav-link:hover{
+    color:rgb(183, 170, 230);  !important
+}
+
+@media only screen and (max-width: 768px){
+
+    .photo{
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    .photo>img{
+        max-width: 200px;
+    }
+}
+
+
+
+
+
+
